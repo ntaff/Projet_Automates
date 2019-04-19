@@ -1,3 +1,15 @@
+  
+(******************************************************)
+(***************** PROJET AUTOMATES *******************)
+(************ NICOLAS TAFFOUREAU (@ntaff) *************)
+(*********** THOMAS BOISNIER (@KuroBayashi) ***********)
+(******************************************************)
+
+
+include "../lib/strings.ml";;
+include "../lib/lists.ml";;
+
+
 (* Le type afd *)
 	
 		type etat = {accept : bool ; t : char -> int} ;;		
